@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: Melted Monster;
+	src: url('Melted Monster.ttf') format('truetype');
+}
+
+/* HTML and Body Styles */
+
+
+html {
+	background-color: rgb(18, 155, 32);
+}
+
+body {
+	font-family: Melted Monster, Helvetica, sans-serif;
+}
+
+body > header > nav.horizontalNavigation li {
+	width: 10%;
+}
+
+/* Heading Styles */
+h1 {
+	text-align: center;
+	font-size: 5em;
+}
+
+
+
+
+/* Aside and Blockquote Styles */
+article {
+	text-align: center;
+}
+
+
+
+
+/* Horizontal Navigation Styles */	
+
+nav.horizontalNavigation li {
+	display: block;
+	float: left;
+} 
+
+nav.horizontalNavigation a {
+	display: block;
+	text-align: center;
+}
+
+/* List Styles */
+
+
+
+
+
+/* Footer Styles */
+footer {
+	background-color: rgb(224, 224, 224);
+	text-align: center;
+}
